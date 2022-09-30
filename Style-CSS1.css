@@ -1,0 +1,137 @@
+@font-face{
+  font-family: 'Adella';
+  src: url("flashrogers.ttf");
+}
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins";
+}
+
+html {
+  margin: auto;
+  max-width: 1440px;
+  font-size: 10px;
+}
+/*nav*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 14rem;
+  color: #1ca8d7;
+  border-bottom: 3px solid #13fdfd;
+  box-shadow: 0 4px 18px rgba(235, 5, 5, 0.08);
+}
+
+body {
+  background-color: black;
+}
+
+header{
+  background-color: rgb(0, 0, 0);
+}
+nav .nav-brand {
+  font-size: 3rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  align-items: center;
+  font-family: 'Adella';
+}
+nav .nav-section {
+  display: flex;
+  align-items: center;
+}
+nav .nav-section ul {
+  list-style: none;
+}
+
+nav .nav-section ul li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+nav .nav-section ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #20dff4;
+  transition: all 0.3s;
+}
+nav .nav-brand:hover,
+nav .nav-section:hover {
+  color: #ffffff;
+}
+/*akir nav*/
+
+/* head */
+header {
+  display: flex;
+  color: #17bae8;
+}
+header .bag-satu {
+  flex-basis: 50%;
+  padding: 11%;
+}
+header .bag-satu .text-hello {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 500;
+}
+header .bag-satu p {
+  font-size: 1.5rem;
+}
+header .bag-dua {
+  flex-basis: 30%;
+  margin-top: 10%;
+  margin-right: 10%;
+}
+
+.gambar {
+  width: 450px;
+}
+.btn-info {
+  background: #07b7ec;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 35px 15px 35px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-info:hover {
+  background: #6200ff;
+  text-decoration: solid;
+}
+#profil {
+  display: block;
+  margin-top: 170px;
+  border-top: 20px solid #e6e9ec;
+  box-shadow: 0 0px 0px rgba(255, 0, 0, 0.08);
+  text-align: center;
+}
+.hai {
+  margin-top: 150px;
+  font-size: 3rem;
+  margin: auto;
+}
+p {
+  margin-top: 5rem;
+  font-family: Verdana, sans-serif;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+.aku {
+  font-size: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.lorem {
+  font-size: 2rem;
+  display: flex;
+  /* padding: 20px; */
+}
